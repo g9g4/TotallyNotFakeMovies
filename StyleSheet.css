@@ -265,6 +265,10 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
 }
+.download:hover{
+tex-decoration: underline;
+}
+   
 .button:hover{
   width: 289px;
 height: 120px;
