@@ -157,7 +157,7 @@ color:rgb(255, 217, 1);
     float: right;
     border: 3px black solid;
     width: 800px;
-    height: 600px;
+    height: 635px;
     margin: 15px;
     margin-right: 40px;
     border-radius: 20px;
@@ -171,6 +171,8 @@ color:rgb(255, 217, 1);
     background: rgb(30, 110, 110);
     margin-top: 400px;
     color: rgb(205, 193, 193);
+    border-radius: 20px;
+    border: lightgray 3px solid;
   }
   
   /* Slides */
@@ -213,6 +215,10 @@ color:rgb(255, 217, 1);
     text-align: center;
     padding: 20px;
     background: #69de98;
+    background:rgb(30, 110, 110);
+    border-radius: 20px;
+    border: lightgray solid 3px;
+    border-top: 0px;
   }
   
   /* The dots/bullets/indicators */
@@ -264,6 +270,7 @@ color:rgb(255, 217, 1);
     margin-left: 400px;
     margin-right: 400px;
     box-shadow: 4px 4px 4px 8px  gray;
+    border-radius: 20px;
     
 }
 .paragraph:hover{
