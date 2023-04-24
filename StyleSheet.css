@@ -157,12 +157,13 @@ color:rgb(255, 217, 1);
     float: right;
     border: 3px black solid;
     width: 800px;
-    height: 530px;
+    height: 600px;
     margin: 15px;
     margin-right: 40px;
     border-radius: 20px;
     font-size: 75px;
     overflow: hidden;
+    color: white;
 }
 /* Slideshow container */
 .slideshow-container {
