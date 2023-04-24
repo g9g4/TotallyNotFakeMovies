@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Totally-Not-Fake-Movies
+        </title>
+        <link rel="icon" type="image/x-icon" href="favicon (4).ico">
+        <link href="StyleSheet.css" rel="stylesheet">
+        <script>
+            var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      slideIndex = 2
+    }
+    
+            
+        </script>
+        
+    </head>   
+    <body>
+        <div>
+           <ul>
+            <li class="logolist"><div class="logo"><img src="TNFM logo copy.png" alt=""></div> </li>
+            <li a class="logo2"> Totally-Not-Fake-Movies</li>
+          
+                
+                <li><a href="file:///C:/CSP/CS%20GP/TNRM-main%20menu.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#Movies" class="dropbtn">Movies</a>
+                    <div class="dropdown-content">
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page.html">Chop Kick Panda </a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page2.html">Plan Bee </a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page3.html">Ratatoing </a>
+                      <a href=file:///C:/CSP/CS%20GP/Movie-page4.html>Whats Up </a>
+                      <a href=file:///C:/CSP/CS%20GP/Moive-page%2C5.html> Tappy Toes</a>
+                      <a href=file:///C:/CSP/CS%20GP/Movie-page6.html>Panda Fighter</a>
+                    <a href="file:///C:/CSP/CS%20GP/movei-page7.html">Little Bee</a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page8.html">Captain's Legacy Battle</a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page9.html">Spiders Web</a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page10.html"> Lifes a Jungle</a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page11.html">Tappy Feet </a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page12.html">Homeward </a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page13.html">Chris Fable</a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page14.html">Way of The Panda</a>
+                      <a href="file:///C:/CSP/CS%20GP/Movie-page15.html">Mr Clean</a>
+                </div>
+
+                     
+                  <div>
+              </li>
+                <li><a href="file:///C:/CSP/CS%20GP/about.html">About</a></li>
+                <li style="float: right;"> <a class="active">Donate</a></li>
+                
+              </ul>
+        </div>
+       <a href="file:///C:/CSP/CS%20GP/about.html"> <div id="ABbox" ><center>About</center>
+       
+        
+       </div></a>
+      
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width slides/quotes -->
+    
+    <div class="mySlides">
+      <center>Reviews</center>
+      <p class="topic">MOVIE: Little Bee</p>
+      <p>“The bee based movies inspired me to get honey, but it killed my firstborn son 1 star review.” 
+        </p>
+      <p class="author">-Anonymous</p>
+    </div>
+  
+    <div class="mySlides">
+      <center>Reviews</center>
+      <p class="topic">MOVIE: Ratatoing
+      <p>“Rattattoing inspired me to become the best rat cook in New Zeeland” 
+        </p>
+      <p class="author">- Janis Tuburcle</p>
+    </div>
+  
+    <div class="mySlides">
+      <center>Reviews</center>
+      <p class="topic">MOVIE: Wings</p>
+      <p>“Wiiiiiiiiiiiiiiiiings helped me fly” 
+      <p class="author">- Tatum Zillias</p>
+    </div>
+
+    <div class="mySlides">
+      <center>Reviews</center>
+      <p class="topic">MOVIE: Whats Up</p>
+        <p>
+“Sum dagers het me dureng Whats Up, its was thea bist experince of me live” 
+        <p class="author">- Sjaji Luise</p>
+      </div>
+  
+    <!-- Next/prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- Dots/bullets/indicators -->
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+        
+        
+        
+        
+        
+    </body>
+    <footer class="footer">
+      (c) Totally-Not-Fake-Movies
+    </footer>
+
+</html>
