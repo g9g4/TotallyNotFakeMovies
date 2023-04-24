@@ -3,23 +3,28 @@
 
 
 body{ /* shows what the body should look like */
-    border: black 8px solid ;
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 1000px;
+    height: 900px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
-    background-color: rgb(142, 202, 74);
+    background:linear-gradient(rgb(37, 141, 37), rgb(37, 110, 100 )60%);
+
+    
     
      
  }
  
  ul { /* generates the taskbar background and makes the size*/
+ 
+    
+    border-radius: 100px;
      list-style-type: none;
      margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(68, 126, 48);
+    background-color: rgb(37, 110, 100 );
     height: 50px;
     
     
@@ -31,13 +36,14 @@ li {
     font-size: xx-large;
     margin-right: 20px;
     
+
    
 }
 
 li a, .dropbtn {
     display: inline-block;
     padding: 5px 16px;
-    text-align: center;
+   
     color: white;
     text-decoration: none; 
     
@@ -45,11 +51,13 @@ li a, .dropbtn {
 }
     
 li a:hover, .dropdown:hover .dropbtn {
-background-color: rgb(23, 22, 22);
+background-color: rgb(18, 120, 20);
+border-radius: 100px;
 
 } 
 li.dropdown{
 display: inline-block;
+
 
 }
 .active{
@@ -59,24 +67,28 @@ margin-right: -20px;
 }
 
 .dropdown-content{
+  border-radius: 50px;
 display:none;
 position: absolute;
 background-color: #f9f9f9f9;
 width: 600px;
-max-height: 430px;
+max-height: 1150px;
 box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
 z-index: 1;
-
-
+overflow: hidden;
+align-items: center;
 
 }
+
+
+
 .dropdown-content a {
 display: block;
 text-align: left;
 color: black;
 padding: 12px 16px;
 text-decoration: none;
-margin-bottom: 10px;
+margin-bottom: 6px;
 
 
 }
@@ -90,11 +102,12 @@ display:block;
 .logo{
 
 
-margin-top: 10px;
+margin-top: 15px;
 margin-left: 10px;
-margin-top: -15;
+
 background-color: white;
-overflow: hidden;
+border-radius: 50px;
+
 
 
 }
@@ -123,7 +136,8 @@ margin-top: 15px;
 
 }
 #ABbox:hover{
-box-shadow: 4px 3px 8px 8px  gray ;
+ box-shadow: inset;
+ box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);;
 }
 
 .moviebox{
@@ -132,21 +146,28 @@ box-shadow: 4px 3px 8px 8px  gray ;
     width: 269px;
     height: 380px;
     margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
 
 }
 .Mtextbox{
+  background-color: rgb(80, 125, 80);
     float: right;
     border: 3px black solid;
     width: 800px;
-    height: 380px;
+    height: 530px;
     margin: 15px;
     margin-right: 40px;
+    border-radius: 20px;
+    font-size: 75px;
+    overflow: hidden;
 }
 /* Slideshow container */
 .slideshow-container {
     position:relative;
-    background: #f1f1f1f1;
+    background: rgb(30, 110, 110);
     margin-top: 400px;
+    color: rgb(205, 193, 193);
   }
   
   /* Slides */
@@ -188,7 +209,7 @@ box-shadow: 4px 3px 8px 8px  gray ;
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    background: #69de98;
   }
   
   /* The dots/bullets/indicators */
@@ -213,13 +234,14 @@ box-shadow: 4px 3px 8px 8px  gray ;
   
   /* Add a blue color to the author */
   .author {color: cornflowerblue;}
+
   /*addds color and emphazise to the topic*/
   .topic{
-    float: left;
-    width: 50x;
-    height: 45px;
-    background-color: darkgray;
-    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-flex;
+    background-color: rgb(100, 98, 98);
+    text-align: center;
   
 }
 
@@ -229,7 +251,8 @@ box-shadow: 4px 3px 8px 8px  gray ;
    JACK PUT YOUR COLOR CODE IN HERE 
    ALSO FIX THE FONT TO WHAT YOU HAVE IT AS :)
    */
-    background-color: rgb(134, 186, 73);
+    background-color: rgb(40, 147, 40);
+    
     font-size: xx-large;
     text-align: center;
     border: solid 0px black;
@@ -240,12 +263,20 @@ box-shadow: 4px 3px 8px 8px  gray ;
     box-shadow: 4px 4px 4px 8px  gray;
     
 }
+.paragraph:hover{
+  filter: contrast(200%);
+  filter:drop-shadow(200%); 
+}
+
+
+
 .about_body{
   height: 600px;
   
 }
 #movie_body{
   height: 600px;
+  font-size: 100px;
 }
 .button{
   float: left;
@@ -254,7 +285,8 @@ margin-top: 8px;
 width: 269px;
 height:100px;
 font-size: xx-large;
-background-color: darkgreen;
+background-color: rgb(37, 110, 50 );
+border-radius: 20px;
 
 }
 .download{
@@ -266,11 +298,10 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .download:hover{
-text-decoration: underline;
+  text-decoration: underline;
 }
-   
-.button:hover{
-  width: 289px;
-height: 120px;
+.footer{
+  font-size: small;
+}
 
-}
+
